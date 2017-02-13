@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>お絵描きアプリ</title>
+    <style>
+      body {
+        margin: 0; /* 画面いっぱいにcanvasを表示するため */
+        position: relative; /* ボタンを自由に配置するため */
+      }
+      #canvas {
+        background-color: #aaa;
+      }
+      #btn {
+        position: absolute; /* ボタンをcanvas内に配置するため */
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">クリア</button>
+    <canvas id="canvas"></canvas>
+    
+    
+    <script src="app.js"></script>
+  </body>
+</html>
